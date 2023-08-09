@@ -204,24 +204,7 @@ Shopify.routes = Shopify.routes || {};
 Shopify.routes.root = "/";</script>
 <script type="module">!function(o){(o.Shopify=o.Shopify||{}).modules=!0}(window);</script>
 <script>!function(o){function n(){var o=[];function n(){o.push(Array.prototype.slice.apply(arguments))}return n.q=o,n}var t=o.Shopify=o.Shopify||{};t.loadFeatures=n(),t.autoloadFeatures=n()}(window);</script>
-<script>(function() {
-  function asyncLoad() {
-    var urls = ["https:\/\/widgetic.com\/sdk\/sdk.js?shop=niklas-christl-visuals.myshopify.com","\/\/cdn.shopify.com\/proxy\/a32535146cb455fa44ed6cf0608019d1a1d5554dd4379ff86318ca1cdd70fe43\/niklaschristl.activehosted.com\/js\/site-tracking.php?shop=niklas-christl-visuals.myshopify.com\u0026sp-cache-control=cHVibGljLCBtYXgtYWdlPTkwMA","https:\/\/gdprcdn.b-cdn.net\/js\/gdpr_cookie_consent.min.js?shop=niklas-christl-visuals.myshopify.com"];
-    for (var i = 0; i < urls.length; i++) {
-      var s = document.createElement('script');
-      s.type = 'text/javascript';
-      s.async = true;
-      s.src = urls[i];
-      var x = document.getElementsByTagName('script')[0];
-      x.parentNode.insertBefore(s, x);
-    }
-  };
-  if(window.attachEvent) {
-    window.attachEvent('onload', asyncLoad);
-  } else {
-    window.addEventListener('load', asyncLoad, false);
-  }
-})();</script>
+
 <script id="__st">var __st={"a":50945228956,"offset":3600,"reqid":"eb31085a-8b5d-4e5e-a4db-64d6886ddddc","pageurl":"shop.niklaschristl.com\/","u":"43fa91f077fa","p":"home"};</script>
 <script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
 <script>!function(o){o.addEventListener("DOMContentLoaded",function(){window.Shopify=window.Shopify||{},window.Shopify.recaptchaV3=window.Shopify.recaptchaV3||{siteKey:"6LcCR2cUAAAAANS1Gpq_mDIJ2pQuJphsSQaUEuc9"};var t=['form[action*="/contact"] input[name="form_type"][value="contact"]','form[action*="/comments"] input[name="form_type"][value="new_comment"]','form[action*="/account"] input[name="form_type"][value="customer_login"]','form[action*="/account"] input[name="form_type"][value="recover_customer_password"]','form[action*="/account"] input[name="form_type"][value="create_customer"]','form[action*="/contact"] input[name="form_type"][value="customer"]'].join(",");function n(e){e=e.target;null==e||null!=(e=function e(t,n){if(null==t.parentElement)return null;if("FORM"!=t.parentElement.tagName)return e(t.parentElement,n);for(var o=t.parentElement.action,r=0;r<n.length;r++)if(-1!==o.indexOf(n[r]))return t.parentElement;return null}(e,["/contact","/comments","/account"]))&&null!=e.querySelector(t)&&((e=o.createElement("script")).setAttribute("src","https://cdn.shopify.com/shopifycloud/storefront-recaptcha-v3/v0.6/index.js"),o.body.appendChild(e),o.removeEventListener("focus",n,!0),o.removeEventListener("change",n,!0),o.removeEventListener("click",n,!0))}o.addEventListener("click",n,!0),o.addEventListener("change",n,!0),o.addEventListener("focus",n,!0)})}(document);</script>
@@ -674,13 +657,13 @@ Shopify.routes.root = "/";</script>
     analyzifyAppStart();
   });
 </script>
-<script src="https://cdn.shopify.com/extensions/6d0c5c8e-5b07-44ae-97e1-036729659f97/0.72.0/assets/gdpr_cookie_consent.js" type="text/javascript" defer="defer"></script>
+
 <meta property="og:image" content="https://cdn.shopify.com/s/files/1/0509/4522/8956/files/Niklas_Christl_Logo_400px_yellow.png?height=628&pad_color=101010&v=1614316797&width=1200" />
 <meta property="og:image:secure_url" content="https://cdn.shopify.com/s/files/1/0509/4522/8956/files/Niklas_Christl_Logo_400px_yellow.png?height=628&pad_color=101010&v=1614316797&width=1200" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="628" />
 <link href="https://monorail-edge.shopifysvc.com" rel="dns-prefetch">
-<script>(function(){if ("sendBeacon" in navigator && "performance" in window) {var session_token = document.cookie.match(/_shopify_s=([^;]*)/);function handle_abandonment_event(e) {var entries = performance.getEntries().filter(function(entry) {return /monorail-edge.shopifysvc.com/.test(entry.name);});if (!window.abandonment_tracked && entries.length === 0) {window.abandonment_tracked = true;var currentMs = Date.now();var navigation_start = performance.timing.navigationStart;var payload = {shop_id: 50945228956,url: window.location.href,navigation_start,duration: currentMs - navigation_start,session_token: session_token && session_token.length === 2 ? session_token[1] : "",page_type: "index"};window.navigator.sendBeacon("https://monorail-edge.shopifysvc.com/v1/produce", JSON.stringify({schema_id: "online_store_buyer_site_abandonment/1.1",payload: payload,metadata: {event_created_at_ms: currentMs,event_sent_at_ms: currentMs}}));}}window.addEventListener('pagehide', handle_abandonment_event);}}());</script>
+
 <script>window.ShopifyAnalytics = window.ShopifyAnalytics || {};
 window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
 window.ShopifyAnalytics.meta.currency = 'EUR';
@@ -692,201 +675,7 @@ for (var attr in meta) {
   
 };
 </script>
-<script class="analytics">(window.gaDevIds=window.gaDevIds||[]).push('BwiEti');
 
-
-(function () {
-  var customDocumentWrite = function(content) {
-    var jquery = null;
-
-    if (window.jQuery) {
-      jquery = window.jQuery;
-    } else if (window.Checkout && window.Checkout.$) {
-      jquery = window.Checkout.$;
-    }
-
-    if (jquery) {
-      jquery('body').append(content);
-    }
-  };
-
-  var hasLoggedConversion = function(token) {
-    if (token) {
-      return document.cookie.indexOf('loggedConversion=' + token) !== -1;
-    }
-    return false;
-  }
-
-  var setCookieIfConversion = function(token) {
-    if (token) {
-      var twoMonthsFromNow = new Date(Date.now());
-      twoMonthsFromNow.setMonth(twoMonthsFromNow.getMonth() + 2);
-
-      document.cookie = 'loggedConversion=' + token + '; expires=' + twoMonthsFromNow;
-    }
-  }
-
-  var trekkie = window.ShopifyAnalytics.lib = window.trekkie = window.trekkie || [];
-  if (trekkie.integrations) {
-    return;
-  }
-  trekkie.methods = [
-    'identify',
-    'page',
-    'ready',
-    'track',
-    'trackForm',
-    'trackLink'
-  ];
-  trekkie.factory = function(method) {
-    return function() {
-      var args = Array.prototype.slice.call(arguments);
-      args.unshift(method);
-      trekkie.push(args);
-      return trekkie;
-    };
-  };
-  for (var i = 0; i < trekkie.methods.length; i++) {
-    var key = trekkie.methods[i];
-    trekkie[key] = trekkie.factory(key);
-  }
-  trekkie.load = function(config) {
-    trekkie.config = config || {};
-    trekkie.config.initialDocumentCookie = document.cookie;
-    var first = document.getElementsByTagName('script')[0];
-    var script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.onerror = function(e) {
-      var scriptFallback = document.createElement('script');
-      scriptFallback.type = 'text/javascript';
-      scriptFallback.onerror = function(error) {
-              var Monorail = {
-      produce: function produce(monorailDomain, schemaId, payload) {
-        var currentMs = new Date().getTime();
-        var event = {
-          schema_id: schemaId,
-          payload: payload,
-          metadata: {
-            event_created_at_ms: currentMs,
-            event_sent_at_ms: currentMs
-          }
-        };
-        return Monorail.sendRequest("https://" + monorailDomain + "/v1/produce", JSON.stringify(event));
-      },
-      sendRequest: function sendRequest(endpointUrl, payload) {
-        // Try the sendBeacon API
-        if (window && window.navigator && typeof window.navigator.sendBeacon === 'function' && typeof window.Blob === 'function' && !Monorail.isIos12()) {
-          var blobData = new window.Blob([payload], {
-            type: 'text/plain'
-          });
-    
-          if (window.navigator.sendBeacon(endpointUrl, blobData)) {
-            return true;
-          } // sendBeacon was not successful
-    
-        } // XHR beacon   
-    
-        var xhr = new XMLHttpRequest();
-    
-        try {
-          xhr.open('POST', endpointUrl);
-          xhr.setRequestHeader('Content-Type', 'text/plain');
-          xhr.send(payload);
-        } catch (e) {
-          console.log(e);
-        }
-    
-        return false;
-      },
-      isIos12: function isIos12() {
-        return window.navigator.userAgent.lastIndexOf('iPhone; CPU iPhone OS 12_') !== -1 || window.navigator.userAgent.lastIndexOf('iPad; CPU OS 12_') !== -1;
-      }
-    };
-    Monorail.produce('monorail-edge.shopifysvc.com',
-      'trekkie_storefront_load_errors/1.1',
-      {shop_id: 50945228956,
-      theme_id: 133164466441,
-      app_name: "storefront",
-      context_url: window.location.href,
-      source_url: "https://cdn.shopify.com/s/trekkie.storefront.7d0a13153e8bbaa5986cddb6780ade2d67000476.min.js"});
-
-      };
-      scriptFallback.async = true;
-      scriptFallback.src = 'https://cdn.shopify.com/s/trekkie.storefront.7d0a13153e8bbaa5986cddb6780ade2d67000476.min.js';
-      first.parentNode.insertBefore(scriptFallback, first);
-    };
-    script.async = true;
-    script.src = 'https://cdn.shopify.com/s/trekkie.storefront.7d0a13153e8bbaa5986cddb6780ade2d67000476.min.js';
-    first.parentNode.insertBefore(script, first);
-  };
-  trekkie.load(
-    {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":50945228956,"isMerchantRequest":null,"themeId":133164466441,"themeCityHash":"14595932005470655896","contentLanguage":"en","currency":"EUR"},"isServerSideCookieWritingEnabled":true,"monorailRegion":"shop_domain"},"Google Analytics":{"trackingId":"UA-109140459-1","domain":"auto","siteSpeedSampleRate":"10","enhancedEcommerce":true,"doubleClick":true,"includeSearch":true},"Facebook Pixel":{"pixelIds":["140443474274364"],"agent":"plshopify1.2"},"Session Attribution":{},"S2S":{"facebookCapiEnabled":true,"facebookAppPixelId":"140443474274364","source":"trekkie-storefront-renderer"}}
-  );
-
-  var loaded = false;
-  trekkie.ready(function() {
-    if (loaded) return;
-    loaded = true;
-
-    window.ShopifyAnalytics.lib = window.trekkie;
-    
-      ga('require', 'linker');
-      function addListener(element, type, callback) {
-        if (element.addEventListener) {
-          element.addEventListener(type, callback);
-        }
-        else if (element.attachEvent) {
-          element.attachEvent('on' + type, callback);
-        }
-      }
-      function decorate(event) {
-        event = event || window.event;
-        var target = event.target || event.srcElement;
-        if (target && (target.getAttribute('action') || target.getAttribute('href'))) {
-          ga(function (tracker) {
-            var linkerParam = tracker.get('linkerParam');
-            document.cookie = '_shopify_ga=' + linkerParam + '; ' + 'path=/';
-          });
-        }
-      }
-      addListener(window, 'load', function(){
-        for (var i=0; i < document.forms.length; i++) {
-          var action = document.forms[i].getAttribute('action');
-          if(action && action.indexOf('/cart') >= 0) {
-            addListener(document.forms[i], 'submit', decorate);
-          }
-        }
-        for (var i=0; i < document.links.length; i++) {
-          var href = document.links[i].getAttribute('href');
-          if(href && href.indexOf('/checkout') >= 0) {
-            addListener(document.links[i], 'click', decorate);
-          }
-        }
-      });
-    
-
-    var originalDocumentWrite = document.write;
-    document.write = customDocumentWrite;
-    try { window.ShopifyAnalytics.merchantGoogleAnalytics.call(this); } catch(error) {};
-    document.write = originalDocumentWrite;
-
-    window.ShopifyAnalytics.lib.page(null,{"pageType":"home"});
-
-    var match = window.location.pathname.match(/checkouts\/(.+)\/(thank_you|post_purchase)/)
-    var token = match? match[1]: undefined;
-    if (!hasLoggedConversion(token)) {
-      setCookieIfConversion(token);
-      
-    }
-  });
-
-  
-      var eventsListenerScript = document.createElement('script');
-      eventsListenerScript.async = true;
-      eventsListenerScript.src = "//cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-65cd0ba3fcd81a1df33f2510ec5bcf8c0e0958653b50e3965ec972dd638ee13f.js";
-      document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
-    
-})();</script>
 <script class="boomerang">
 (function () {
   if (window.BOOMR && (window.BOOMR.version || window.BOOMR.snippetExecuted)) {
